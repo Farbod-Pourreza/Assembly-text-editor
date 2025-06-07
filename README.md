@@ -2,6 +2,7 @@
 A lightweight text editor developed entirely in Assembly (x86) using the Irvine32 library. This project demonstrates low-level control over keyboard I/O, cursor movement, and screen buffer manipulation within a console-based environment.
 
 💻 Features
+
 🖋️ Real-time character input with immediate display
 
 🔙 Support for backspace and text overwriting
@@ -18,6 +19,7 @@ Irvine32 Library
 Windows Console I/O
 
 🚀 How to Run
+
 Clone the repository.
 
 Open the .asm file in an IDE like EMU8086 or Visual Studio with MASM/Irvine32 configured.
