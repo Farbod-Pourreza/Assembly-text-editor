@@ -1,22 +1,29 @@
-🧠 Assembly Text Editor
+# 🧠 Assembly Text Editor
 
-A lightweight text editor developed entirely in Assembly (x86). This project demonstrates low-level control over keyboard I/O, cursor movement, and screen buffer manipulation within a console-based environment.
+A lightweight console-based text editor written entirely in **x86 Assembly**. This project demonstrates how low-level programs can interact directly with hardware to handle keyboard input, screen output, and cursor movement — all without the help of a high-level language or standard library.
 
-💻 Features
+---
 
-- 🖋️ Real-time character input with immediate display
+## 🧩 Motivation
 
-- 🔙 Support for backspace and text overwriting
+While most text editors are built using high-level programming languages and modern GUI frameworks, this project takes a deep dive into how such software can be implemented at the machine level. It was designed to explore system-level programming concepts and offer hands-on experience with hardware interaction, memory management, and real-time input processing in Assembly.
 
-- 🎯 Cursor control and character position tracking
+---
 
-- 📦 Clean memory management with modular structure
+## 🕹️ Features
 
-🔧 Technologies
-- Assembly Language (x86)
+- ⌨️ **Real-time Character Input**: Reads and displays keystrokes instantly in the console.
+- ⏮️ **Backspace Support**: Allows users to delete previously entered characters with proper cursor control.
+- 🎯 **Cursor Management**: Tracks and updates cursor position on each key press and deletion.
+- 🧼 **Clear Console and Exit**: Provides basic control flow for exiting the editor and managing screen output.
+- 📐 **Modular Procedures**: Organized using separate procedures for input, logic, and output.
 
-- Windows Console I/O
+---
 
-🎯 Purpose
+## 🔧 Technologies Used
 
- This project was developed to gain hands-on experience with low-level programming and deepen understanding of how text editors function at the machine instruction level. It served as a practical exercise in systems programming and real-time user interaction in Assembly.
+- **x86 Assembly Language**
+- **NASM (Microsoft Macro Assembler)**
+- **Windows Console** – Text-based interface
+
+---
